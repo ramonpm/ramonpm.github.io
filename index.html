@@ -39,9 +39,15 @@
             ultimate goal!</p>
         <p>
             <form action="https://formspree.io/ramonpm@gmail.com" method="POST">
-                <input type="text" name="name">
-                <input type="email" name="_replyto">
-                <input class="btn btn-lg btn-success" type="submit" value="Contact Me!">
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" placeholder="Your message"></textarea>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-lg btn-success" type="submit" value="Contact Me!">
+                </div>
             </form>
         </p>
     </div>
