@@ -30,7 +30,7 @@ const About: React.FC = () => {
         Football back on school days, my colleagues use to say I was the best. Card games, video games, and any E-sports games I’ve played I was a challenging adversary.
       </p>
 
-      <h2>Collaboration</h2>
+      <h2>6. Collaboration</h2>
       <p>
         I believe a single person can achieve good results but I know for sure that a team can achieve extraordinary results. Whenever I see I can contribute with anything to help a team member succeed I’ll do it.
       </p>
@@ -62,6 +62,8 @@ const About: React.FC = () => {
 
         Also it worth to mention that I've studied music too, I play Guitar and Piano, and I Sing as well.
       </p>
+
+      <p>Do you want to see my Resume? Please visit my Linkedin profile https://www.linkedin.com/in/ramonpm/</p>
     </div>
   );
 }
