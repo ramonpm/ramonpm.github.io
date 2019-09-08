@@ -9,6 +9,7 @@
     "@types/react": "^16.9.2",
     "@types/react-dom": "16.9.0",
     "eslint-utils": "^1.4.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
@@ -21,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^4.3.5",
-    "gh-pages": "^2.1.1"
+    "@types/react-router-dom": "^4.3.5"
   }
 }
