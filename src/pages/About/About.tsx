@@ -63,7 +63,7 @@ const About: React.FC = () => {
         Also it worth to mention that I've studied music too, I play Guitar and Piano, and I Sing as well.
       </p>
 
-      <p>Do you want to see my Resume? Please visit my Linkedin profile https://www.linkedin.com/in/ramonpm/</p>
+      <p>Do you want to see my Resume? Please visit my <a href="https://www.linkedin.com/in/ramonpm/">Linkedin profile</a></p>
     </div>
   );
 }
